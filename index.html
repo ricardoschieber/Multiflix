@@ -5,10 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+ 
     <title>Multiflix</title>
 </head>
 <body>
-    <header class="">
+    <header>
         <div class="container">
             <h2 class="logo">MULTIFLIX</h2>
             <nav>
@@ -23,18 +28,49 @@
         <div class="main-movie">
             <div class="container">
                     <h3 class="title">Frozen: Uma Aventura Congelante</h3>
-                    <p class="description">A destemida e otimista Anna sai em uma jornada épica, ao lado de Kristoff e sua leal rena Sven, para encontrar sua irmã Elsa, cujos poderes congelantes aprisionaram o reino de Arendelle em um inverno eterno. Encontrando condições de Everest, trolls místicos e um hilário boneco de neve chamado Olaf, Anna e Kristoff enfrentam obstáculos em uma corrida para salvar o reino.</p>
-            </div>
-            <div class="buttons">
-                <button role="button" class="button">
-                    Assistir agora
-                </button>
-                <button role="button" class="button">
-                    Mais informações
-                </button>
+                    <p class="description">A destemida e otimista Anna sai em uma jornada épica, ao lado de Kristoff e sua leal rena Sven, para encontrar sua irmã Elsa, cujos poderes congelantes aprisionaram o reino de Arendelle em um inverno eterno.</p>
+                    <div class="buttons">
+                        <button role="button" class="button">
+                            <i class="fas fa-play"></i>
+                            Assistir agora
+                        </button>
+                        <button role="button" class="button">
+                            <i class="fas fa-info-circle"></i>
+                            Mais informações
+                        </button>
+                    </div>
             </div>
         </div>
     </main>
+
+    <div class="carousel-movies">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-movie" src="img/diariodeumbanana-mini.jpg" alt="Diário de um banana">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="img/encanto-mini.jpg" alt="Diário de um banana">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="img/luca-mini.jpg" alt="Diário de um banana">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="img/patrulhacanina-mini.jpg" alt="Diário de um banana">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="img/poderosochefinho-mini.jpg" alt="Diário de um banana">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="img/raya-mini.jpg" alt="Diário de um banana">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/951a924925.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+    
     <footer>
         <div>Desenvolvido por Ricardo Schieber</div>
     </footer>
