@@ -13,7 +13,7 @@
 
 body {
     background-color: var(--black);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
 }
 
@@ -101,4 +101,8 @@ header nav a:hover {
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carousel-movies {
+    margin-top: 5px;
 }
